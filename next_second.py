@@ -2,6 +2,7 @@
 #Comprova que els valors siguen vàlids. Si no ho són, cal que el programa mostre un missatge d'error.
 #En cas que siga una hora vàlida, el programa ha d'afegir 1 segon a aquesta i mostrar el resultat en el format HH:MM:SS
 
-def hora(a,b,c):
+def hora(h,m,s):
 
-if
+if h <0 and h >23:
+    print("El valor"" es incorrecto")
